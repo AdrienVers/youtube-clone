@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/youtuble-clone/static/css/main.073c9b0a.css",
+    "main.js": "/youtuble-clone/static/js/main.ab0529ad.js",
+    "static/js/787.8552d498.chunk.js": "/youtuble-clone/static/js/787.8552d498.chunk.js",
+    "index.html": "/youtuble-clone/index.html",
+    "main.073c9b0a.css.map": "/youtuble-clone/static/css/main.073c9b0a.css.map",
+    "main.ab0529ad.js.map": "/youtuble-clone/static/js/main.ab0529ad.js.map",
+    "787.8552d498.chunk.js.map": "/youtuble-clone/static/js/787.8552d498.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ab0529ad.js"
+  ]
+}
