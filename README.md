@@ -1,4 +1,4 @@
-# Avant de se lancer précipitamment dans la programmation du clone, il est crucial de comprendre les objectifs du projet, et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début de ce projet : 
+# Avant de se lancer précipitamment dans la programmation, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début de ce projet : 
 
 Comment modéliser le site et quels composants pourront être crées ? 
 Comment les composants seront-ils testés ?
