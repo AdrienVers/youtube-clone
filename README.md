@@ -4,13 +4,19 @@ Quel Framework utiliser (React, Vue ou Angular) ?
 <p>→ React.</p>
 
 Comment structurer le site ? Quelles pages et à combien se limiter ?
-→ On se limitera à 4 pages : 
+<p>→ On se limitera à 4 pages :</p>
 La page d'acceuil (Home), 
 La page des abonnements (Subscriptions), 
 La page des vidéos likées (Favorites),
 La page d'inscription/connexion (Account).
 
- Quels composants pourront être crées ?
+Comment gérer le passage d'une page à l'autre ?
+<p>→ Utilisation de la librairie react-router-dom.</p>
+
+Quels composants pourront être crées pour faciliter la maintenabilité du site ?
+<p>→ On se limitera à 8 composants :</p>
+La barre de navigation (Navbar),
+
 
 Comment les composants seront-ils testés ?
 
