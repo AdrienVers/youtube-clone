@@ -17,7 +17,16 @@ Comment gérer le passage d'une page à l'autre ?
 
 Quels composants pourront être crées pour faciliter la maintenabilité du site ?
 <p>→ On se limitera à 8 composants :</p>
-La barre de navigation (Navbar),
+<ul>
+<li>La barre de navigation (Navbar, utilisable dans Home),</li>
+<li>Composant comprenant la vidéo et les informations principales (CardVideo, utilisable dans Home et Favorites),</li>
+<li>Composant comprenant le profil du réalisateur de la vidéo (CardProfile, utilisable dans Subscriptions),</li>
+<li>Composant de tags comprenant les mots clefs des vidéos (Tagsbar, utilisable dans Home),</li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
 
 
 Comment les composants seront-ils testés ?
