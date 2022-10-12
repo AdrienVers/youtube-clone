@@ -15,10 +15,10 @@
 <li>La page d'inscription/connexion (Account).</li>
 </ul>
 
-Comment gérer le passage d'une page à l'autre ?
+##### Comment gérer le passage d'une page à l'autre ?
 <p>→ Utilisation de la librairie react-router-dom.</p>
 
-Quels composants pourront être crées pour faciliter la maintenabilité du site ?
+##### Quels composants pourront être crées pour faciliter la maintenabilité du site ?
 <p>→ On se limitera à 5 composants :</p>
 <ul>
 <li>La barre de navigation du haut (TopNavbar, utilisable dans Home),</li>
@@ -28,10 +28,10 @@ Quels composants pourront être crées pour faciliter la maintenabilité du site
 <li>Composant de tags comprenant les mots clefs des vidéos (Tagsbar, utilisable dans Home),</li>
 </ul>
 
-Les composants pourront-ils être testés ?
+##### Les composants pourront-ils être testés ?
 <p>→ Oui, il faudra donc sortir la logique des composants fonctionnels pour pouvoir les tester les fonctions.</p>
 
-Comment et avec quoi les composants seront-ils testés ?
+##### Comment et avec quoi les composants seront-ils testés ?
 <p>→ Seuls des tests unitaires seront réalisés, à l'aide de : </p>
 <ul>
 <li>Jest : outil permettant de tester du code JS/TS.</li>
@@ -39,13 +39,13 @@ Comment et avec quoi les composants seront-ils testés ?
 <li>MSW : outil permettant de faire des simulations d'API.</li>
 </ul>
 
-Les données seront-elles sécurisées ?
+##### Les données seront-elles sécurisées ?
 <p>→ Etant donné que les données sensibles (celles des utilisateurs inscrits) seront stockées sur Firebase (partie backend), cela génère une première couche de sécurité.</p>
 
-Comment seront gérés les données en cache ?
+##### Comment seront gérés les données en cache ?
 <p>→ Oui, grâce à la propriété localStorage de Web Storage API.</p>
 
-Comment seront gérés les formulaires et leur validation ?
+##### Comment seront gérés les formulaires et leur validation ?
 <p>→ On utilisera les trois éléments suivants :</p>
 <ul>
 <li>Pour la partie front : la bibliothèque React Hook Form (plutôt que Formik),</li>
@@ -53,11 +53,16 @@ Comment seront gérés les formulaires et leur validation ?
 <li>Pour la partie back : le service d'hébergement Firebase.</li>
 </ul>
 
+##### Comment seront gérés la création de compte et connexion d'un utilisateur ?
+<p>→ On utilisera les propriétés signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged de Firebase.</p>
 
-Comment seront gérés la création de compte et connexion d'un utilisateur ?
+##### Quelles seront les méthodologies appliquées à ce projet ?
+<p>→ On utilisera la méthodologie agile (SCRUM, KANBAN), et on tentera de se rapprocher de la méthode TDD.</p>
 
-Quelles seront les méthodologies appliquées à ce projet ?
-
-Quelles seront les fonctions principales à réaliser lors du premier sprint ?
-
+##### Quelles seront les fonctions principales à réaliser lors du premier sprint ?
+<p>→ Les fonctions principales à réaliser seront : </p>
+<ul>
+<li>La page d'acceuil (Home) avec ses composants : TopNavbar, LeftNavbar, CardVideo.</li>
+<li>Tester les composants cités.</li>
+</ul>
 
