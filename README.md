@@ -1,7 +1,7 @@
 # Avant de se lancer précipitamment dans la programmation, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début de ce projet : 
 
-Quel Framework utiliser ? React, Vue ou Angular ?
-→ React.
+Quel Framework utiliser (React, Vue ou Angular) ?
+<p>→ React.</p>
 
 Comment structurer le site ? Quelles pages et à combien se limiter ?
 → On se limitera à 4 pages : 
