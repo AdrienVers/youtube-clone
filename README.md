@@ -66,3 +66,8 @@
 <li>Tester les composants cités.</li>
 </ul>
 
+##### D'où proviendront les icons ?
+<p>→ De Fontawesome (Material UI aurait pu être un bon choix, mais on doit télécharger l'ensemble des icons sur le projet, ce qui n'est pas le cas avec Fontawesome).</p>
+
+##### Quel sera le stage management du site ?
+<p>→ On utilisera Redux.</p>
