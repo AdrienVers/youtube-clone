@@ -1,12 +1,12 @@
 # Avant de se lancer précipitamment dans la programmation, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début de ce projet : 
 
-###### Quel Framework utiliser (React, Vue ou Angular) ?
+##### Quel Framework utiliser (React, Vue ou Angular) ?
 <p>→ React.</p>
 
-Où seront stockées les données ? API REST ou en local ?
+##### Où seront stockées les données ? API REST ou en local ?
 <p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et créateurs de contenus proviendront de l'API Youtube.</p>
 
-Comment structurer le site ? Quelles pages et à combien se limiter ?
+##### Comment structurer le site ? Quelles pages et à combien se limiter ?
 <p>→ On se limitera à 4 pages :</p>
 <ul>
 <li>La page d'acceuil (Home),</li>
