@@ -49,7 +49,7 @@
 <p>→ On utilisera les trois éléments suivants :</p>
 <ul>
 <li>Pour la partie front : la bibliothèque React Hook Form (plutôt que Formik),</li>
-<li>Pour la validation : la bibliothèque Yup</li>
+<li>Pour la validation : la bibliothèque Yup,</li>
 <li>Pour la partie back : le service d'hébergement Firebase.</li>
 </ul>
 
