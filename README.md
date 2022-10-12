@@ -5,10 +5,12 @@ Quel Framework utiliser (React, Vue ou Angular) ?
 
 Comment structurer le site ? Quelles pages et à combien se limiter ?
 <p>→ On se limitera à 4 pages :</p>
-La page d'acceuil (Home), 
-La page des abonnements (Subscriptions), 
-La page des vidéos likées (Favorites),
-La page d'inscription/connexion (Account).
+<ul>
+<li>La page d'acceuil (Home),</li>
+<li>La page des abonnements (Subscriptions),</li>
+<li>La page des vidéos likées (Favorites),</li>
+<li>La page d'inscription/connexion (Account).</li>
+</ul>
 
 Comment gérer le passage d'une page à l'autre ?
 <p>→ Utilisation de la librairie react-router-dom.</p>
