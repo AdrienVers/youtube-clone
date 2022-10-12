@@ -9,7 +9,7 @@
 ##### Comment structurer le site ? Quelles pages et à combien se limiter ?
 <p>→ On se limitera à 4 pages :</p>
 <ul>
-<li>La page d'acceuil (Home),</li>
+<li>La page d'accueil (Home),</li>
 <li>La page des abonnements (Subscriptions),</li>
 <li>La page des vidéos likées (Favorites),</li>
 <li>La page d'inscription/connexion (Account).</li>
@@ -62,7 +62,7 @@
 ##### Quelles seront les fonctions principales à réaliser lors du premier sprint ?
 <p>→ Les fonctions principales à réaliser seront : </p>
 <ul>
-<li>La page d'acceuil (Home) avec ses composants : TopNavbar, LeftNavbar, CardVideo.</li>
+<li>La page d'accueil (Home) avec ses composants : TopNavbar, LeftNavbar, CardVideo.</li>
 <li>Tester les composants cités.</li>
 </ul>
 
