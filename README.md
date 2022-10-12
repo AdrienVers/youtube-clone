@@ -1,6 +1,6 @@
 # Avant de se lancer précipitamment dans la programmation, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début de ce projet : 
 
-Quel Framework utiliser (React, Vue ou Angular) ?
+###### Quel Framework utiliser (React, Vue ou Angular) ?
 <p>→ React.</p>
 
 Où seront stockées les données ? API REST ou en local ?
