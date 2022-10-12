@@ -4,7 +4,7 @@ Quel Framework utiliser (React, Vue ou Angular) ?
 <p>→ React.</p>
 
 Où seront stockées les données ? API REST ou en local ?
-<p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et profiles proviendront de l'API Youtube.</p>
+<p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et créateurs de contenus proviendront de l'API Youtube.</p>
 
 Comment structurer le site ? Quelles pages et à combien se limiter ?
 <p>→ On se limitera à 4 pages :</p>
