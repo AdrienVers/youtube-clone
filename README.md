@@ -37,7 +37,7 @@
 <li>Jest : outil permettant de tester du code JS/TS.</li>
 <li>React Testing Library : outil permettant de tester des composants React.</li>
 <li>MSW : outil permettant de faire des simulations d'API.</li>
-</ul>
+</ul> 
 
 ##### Les données seront-elles sécurisées ?
 <p>→ Etant donné que les données sensibles (celles des utilisateurs inscrits) seront stockées sur Firebase (partie backend), cela génère une première couche de sécurité.</p>
