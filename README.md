@@ -6,7 +6,7 @@
 ##### Où seront stockées les données ? API REST ou en local ?
 <p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et créateurs de contenus proviendront de l'API Youtube.</p>
 
-##### Comment structurer le site ? Quelles pages et à combien se limiter ?
+##### Comment structurer le site ? Quelles pages seront accessibles ?
 <p>→ On se limitera à 4 pages :</p>
 <ul>
 <li>La page d'accueil (Home),</li>
