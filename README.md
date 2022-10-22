@@ -1,4 +1,4 @@
-# Avant de se lancer précipitamment dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début de ce projet : 
+## Avant de se lancer précipitamment dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début du projet : 
 
 ##### Quel Framework utiliser (React, Vue ou Angular) ?
 <p>→ React.</p>
