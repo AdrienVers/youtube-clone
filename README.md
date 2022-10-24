@@ -9,8 +9,8 @@
 ##### Quelles API seront utilisées ? 
 <p>→ On utilisera 2 APIs :</p>
 <ul>
-<li>YouTube API, mais elle sera remplacée (en raison de quotas trop récurents)</li>
-<li>TMDB API, où les quotas sont plus élevés</li>
+<li>YouTube API, mais elle sera remplacée (en raison de quotas trop récurents),</li>
+<li>TMDB API, où les quotas ne sont plus contraignants.</li>
 </ul>
 
 ##### Comment structurer le site ? Quelles pages seront accessibles ?
