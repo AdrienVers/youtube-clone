@@ -13,6 +13,8 @@
 <li>TMDB API, où les quotas ne sont plus contraignants.</li>
 </ul>
 
+Pour plus d'informations : [Calculateur des quotas de YouTube API](https://developers.google.com/youtube/v3/determine_quota_cost).
+
 ##### Comment structurer le site ? Quelles pages seront accessibles ?
 <p>→ On se limitera à 4 pages :</p>
 <ul>
