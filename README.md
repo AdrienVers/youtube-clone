@@ -1,12 +1,12 @@
 ## Avant de se lancer précipitamment dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début du projet : 
 
-##### Quel Framework utiliser (React, Vue ou Angular) ?
+##### Quel Framework front-end sera utilisé (React, Vue, Angular ou autre) ?
 <p>→ React.</p>
 
 ##### Où seront stockées les données ? API REST ou en local ?
-<p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et créateurs de contenus proviendront de l'API Youtube.</p>
+<p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et créateurs de contenus proviendront de l'API.</p>
 
-##### Quelle API sera utilisé ? 
+##### Quelle API sera utilisée ? 
 <p>Initialement YouTube API devait être utilisée, mais elle sera remplacée (en raison de quotas trop récurents et trop restreignants).</p>
 <p>→ On utilisera donc 3 APIs :</p>
 <ul>
@@ -40,7 +40,7 @@ Pour plus d'informations : [Calculateur des quotas de YouTube API](https://devel
 </ul>
 
 ##### Les composants pourront-ils être testés ?
-<p>→ Oui, il faudra donc sortir la logique des composants fonctionnels pour pouvoir les tester les fonctions.</p>
+<p>→ Oui, il faudra donc sortir la logique des composants fonctionnels pour pouvoir tester les fonctions.</p>
 
 ##### Comment et avec quoi les composants seront-ils testés ?
 <p>→ Seuls des tests unitaires seront réalisés, à l'aide de : </p>
