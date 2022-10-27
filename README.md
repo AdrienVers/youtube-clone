@@ -6,11 +6,13 @@
 ##### Où seront stockées les données ? API REST ou en local ?
 <p>→ Les données relatives à l'infrastructure du site seront stockées en local, tandis que les données des vidéos et créateurs de contenus proviendront de l'API Youtube.</p>
 
-##### Quelles API seront utilisées ? 
-<p>→ On utilisera 2 APIs :</p>
+##### Quelle API sera utilisé ? 
+<p>Initialement YouTube API devait être utilisée, mais elle sera remplacée (en raison de quotas trop récurents et trop restreignants).</p>
+<p>→ On utilisera donc 3 APIs :</p>
 <ul>
-<li>YouTube API, mais elle sera remplacée (en raison de quotas trop récurents),</li>
-<li>TMDB API, où les quotas ne sont plus contraignants.</li>
+<li>Spotify API, dédiée aux musiques.</li>
+<li>TMDB API, dédiée aux films.</li>
+<li>RAWG API, dédiée aux jeux.</li>
 </ul>
 
 Pour plus d'informations : [Calculateur des quotas de YouTube API](https://developers.google.com/youtube/v3/determine_quota_cost).
