@@ -6,7 +6,7 @@
 <li>Créer un slider sur la page d'Accueil dédié aux tags. :white_check_mark:</li>
 <li>Créer une page permettant de se connecter ou s'inscrire. :white_check_mark:</li>
 <li>Rendre la navbar et sidebar responsive. :white_check_mark:</li>
-<li>Gérer l'ouverture et la fermeture de la sidebar. :white_check_mark:</li>
+<li>Gérer l'ouverture et la fermeture de la sidebar selon trois niveaux (ouverte, mi-ouverte, fermée). :white_check_mark:</li>
 <li>Compartimenter la sidebar comme celle de YouTube. :white_check_mark:</li>
 </ul>
 
