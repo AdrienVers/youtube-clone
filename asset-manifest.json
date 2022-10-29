@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/youtuble-clone/static/css/main.073c9b0a.css",
-    "main.js": "/youtuble-clone/static/js/main.ab0529ad.js",
-    "static/js/787.8552d498.chunk.js": "/youtuble-clone/static/js/787.8552d498.chunk.js",
-    "index.html": "/youtuble-clone/index.html",
-    "main.073c9b0a.css.map": "/youtuble-clone/static/css/main.073c9b0a.css.map",
-    "main.ab0529ad.js.map": "/youtuble-clone/static/js/main.ab0529ad.js.map",
-    "787.8552d498.chunk.js.map": "/youtuble-clone/static/js/787.8552d498.chunk.js.map"
+    "main.css": "/youtube-clone/static/css/main.7a64b1f3.css",
+    "main.js": "/youtube-clone/static/js/main.7cb2da06.js",
+    "static/js/787.8552d498.chunk.js": "/youtube-clone/static/js/787.8552d498.chunk.js",
+    "static/media/GTA5.png": "/youtube-clone/static/media/GTA5.50bb78198925339b5ac0.png",
+    "static/media/Mario.png": "/youtube-clone/static/media/Mario.9dc486a6a26f07009f07.png",
+    "static/media/Horizon.png": "/youtube-clone/static/media/Horizon.e540d6c7a20d29082166.png",
+    "static/media/Planet.png": "/youtube-clone/static/media/Planet.a5ff502de057bbe07b1c.png",
+    "static/media/Two.png": "/youtube-clone/static/media/Two.b492a3f4c6ae70443182.png",
+    "static/media/Hogwarts.png": "/youtube-clone/static/media/Hogwarts.601505e3e11cb61ac6c8.png",
+    "static/media/Minecraft.png": "/youtube-clone/static/media/Minecraft.849df1deb19801443bff.png",
+    "static/media/Profile.jpg": "/youtube-clone/static/media/Profile.26b5c22609c0038bff6e.jpg",
+    "static/media/Connection.png": "/youtube-clone/static/media/Connection.efbfd682b223142af8c8.png",
+    "index.html": "/youtube-clone/index.html",
+    "main.7a64b1f3.css.map": "/youtube-clone/static/css/main.7a64b1f3.css.map",
+    "main.7cb2da06.js.map": "/youtube-clone/static/js/main.7cb2da06.js.map",
+    "787.8552d498.chunk.js.map": "/youtube-clone/static/js/787.8552d498.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ab0529ad.js"
+    "static/css/main.7a64b1f3.css",
+    "static/js/main.7cb2da06.js"
   ]
 }
