@@ -21,7 +21,7 @@
 <li>Utiliser Redux pour gérer les states vis à vis des likes, commentaires et abonnements.</li>
 </ul>
 
-## Avant de se lancer précipitamment dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début du projet : 
+## Avant de se lancer dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début du projet : 
 
 ##### Quel Framework front-end sera utilisé (React, Vue, Angular ou autre) ?
 <p>→ React.</p>
