@@ -1,18 +1,23 @@
 ## Fonctions terminées :
 <ul>
-<li>Rendre la navbar et sidebar resposive. :white_check_mark:</li>
+<li>Rendre la navbar et sidebar responsive. :white_check_mark:</li>
 <li>Gérer l'ouverture et la fermeture de la sidebar. :white_check_mark:</li>
+<li>Compartimenter la sidebar comme celle de YouTube. :white_check_mark:</li>
 <li>Récupérer les données de l'API TMDB, dédiée aux films. :white_check_mark:</li>
-<li>Créer un carousel contenant les films du moment. :white_check_mark:</li>
-<li>Créer une grille resposnsive de 20 vidéos. :white_check_mark:</li>
-<li></li>
+<li>Créer un carousel contenant les films du moment issus de TMDB API. :white_check_mark:</li>
+<li>Créer une grille responsive de 20 films les mieux notés issus de TMDB API. :white_check_mark:</li>
+<li>Créer un slider sur la page d'Accueil dédié aux tags. :white_check_mark:</li>
+<li>Créer une page permettant de se connecter ou s'inscrire. :white_check_mark:</li>
 </ul>
 
-### Fonctions à réaliser :
+#### Fonctions à réaliser :
 <ul>
-<li></li>
+<li>Filtrer les vidéos grâce aux tags.</li>
+<li>Filtrer les vidéos grâce à la barre de recherche.</li>
 <li>Récupérer les données de l'API Spotify, dédiée aux musiques.</li>
 <li>Récupérer les données de l'API RAWG, dédiée aux jeux.</li>
+<li>Lier le formulaire d'inscription/connexion à Firebase afin de stocker les données.</li>
+<li>Utiliser Redux pour gérer les states vis à vis des likes, commentaires et abonnements.</li>
 </ul>
 
 ## Avant de se lancer précipitamment dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début du projet : 
