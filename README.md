@@ -1,9 +1,9 @@
 ## Fonctions terminées :
 <ul>
 <li>Récupérer les données de l'API TMDB, dédiée aux films. :white_check_mark:</li>
-<li>Créer un carousel contenant les films du moment issus de TMDB API. :white_check_mark:</li>
-<li>Créer une grille responsive de 20 films les mieux notés issus de TMDB API. :white_check_mark:</li>
-<li>Créer un slider sur la page d'Accueil dédié aux tags. :white_check_mark:</li>
+<li>Créer un carousel contenant les films sortis récemment, issus de TMDB API. :white_check_mark:</li>
+<li>Créer une grille responsive de 20 films les mieux notés, issus de TMDB API. :white_check_mark:</li>
+<li>Créer un slider de tags sur la page d'Accueil. :white_check_mark:</li>
 <li>Créer une page permettant de se connecter ou s'inscrire. :white_check_mark:</li>
 <li>Rendre la navbar et sidebar responsive. :white_check_mark:</li>
 <li>Gérer l'ouverture, la mi-ouverture et la fermeture de la sidebar. :white_check_mark:</li>
