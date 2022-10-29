@@ -8,7 +8,7 @@
 <li></li>
 </ul>
 
-### Fonctions restantes à réaliser :
+### Fonctions à réaliser :
 <ul>
 <li></li>
 <li>Récupérer les données de l'API Spotify, dédiée aux musiques.</li>
