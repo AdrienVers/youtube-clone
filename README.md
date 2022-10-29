@@ -1,3 +1,20 @@
+## Fonctions terminées :
+<ul>
+<li>Rendre la navbar et sidebar resposive. :white_check_mark:</li>
+<li>Gérer l'ouverture et la fermeture de la sidebar. :white_check_mark:</li>
+<li>Récupérer les données de l'API TMDB, dédiée aux films. :white_check_mark:</li>
+<li>Créer un carousel contenant les films du moment. :white_check_mark:</li>
+<li>Créer une grille resposnsive de 20 vidéos. :white_check_mark:</li>
+<li></li>
+</ul>
+
+### Fonctions restantes à réaliser :
+<ul>
+<li></li>
+<li>Récupérer les données de l'API Spotify, dédiée aux musiques.</li>
+<li>Récupérer les données de l'API RAWG, dédiée aux jeux.</li>
+</ul>
+
 ## Avant de se lancer précipitamment dans la programmation du site web, il est crucial d'analyser le projet dans son ensemble et de se poser les bonnes questions. Ci-dessous, le résumé des questions/réponses émisent au début du projet : 
 
 ##### Quel Framework front-end sera utilisé (React, Vue, Angular ou autre) ?
