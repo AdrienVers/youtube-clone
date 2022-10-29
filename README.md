@@ -8,11 +8,11 @@
 <li>Rendre la navbar et sidebar responsive. :white_check_mark:</li>
 <li>Gérer l'ouverture, la mi-ouverture et la fermeture de la sidebar. :white_check_mark:</li>
 <li>Compartimenter la sidebar comme celle de YouTube. :white_check_mark:</li>
+<li>Lier la totalité des pages entre elles. :white_check_mark:</li>
 </ul>
 
 #### Fonctions à réaliser :
 <ul>
-<li>Lier la totalité des pages entre elles.</li>
 <li>Filtrer les vidéos grâce aux tags.</li>
 <li>Filtrer les vidéos grâce à la barre de recherche.</li>
 <li>Récupérer les données de l'API Spotify, dédiée aux musiques.</li>
