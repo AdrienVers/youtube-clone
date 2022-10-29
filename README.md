@@ -33,8 +33,8 @@
 <p>Initialement YouTube API devait être utilisée, mais elle sera remplacée (en raison de quotas trop récurents et trop restreignants).</p>
 <p>→ On utilisera donc 3 APIs :</p>
 <ul>
-<li>Spotify API, dédiée aux musiques.</li>
 <li>TMDB API, dédiée aux films.</li>
+<li>Spotify API, dédiée aux musiques.</li>
 <li>RAWG API, dédiée aux jeux.</li>
 </ul>
 
