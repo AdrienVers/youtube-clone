@@ -47,6 +47,18 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
     "gh-pages": "^4.0.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/hooks/useMediaQuery.js",
+      "!src/context/HamburgerContext.js",
+      "!src/pages/Home.jsx",
+      "!src/components/Navbar.jsx"
+    ]
   }
 }

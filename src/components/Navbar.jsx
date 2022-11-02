@@ -3,7 +3,6 @@ import styled from "styled-components";
 import YoutubeLogo from "../assets/YouTubeLogo.png";
 import YoutubeMiniLogo from "../assets/YouTubeMini.png";
 import SearchVideo from "./SearchVideo";
-// import ProfileImg from "../assets/Profil.png";
 import ConnexionImg from "../assets/Connection.png";
 import { HamburgerContext } from "../context/HamburgerContext";
 import { Link } from "react-router-dom";

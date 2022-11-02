@@ -10,10 +10,8 @@ const BannerGlobal = styled.div`
 const BannerContainer = styled.div`
   display: flex;
   height: 100%;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
-    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
-    rgba(0, 0, 0, 0.07) 0px 16px 16px;
-  border-bottom: solid 0.3px black;
+  border-bottom: solid 0.1px black;
+  box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.2);
 
   .BannerImg {
     width: 35%;

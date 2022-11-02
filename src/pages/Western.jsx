@@ -1,38 +1,30 @@
-import VideoCard from "../components/VideoCard";
 import styled from "styled-components";
+import VideoList from "../components/VideoList";
+import { useEffect, useState } from "react";
+import { getWestern } from "../datas/moviesData";
 
-const FilmGlobal = styled.div`
+const WesternGlobal = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
 `;
 
-const FilmList = styled.div`
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  grid-gap: 15px;
-  justify-content: space-evenly;
+function Western() {
+  const [westernList, setWesternList] = useState([]);
 
-  @media (max-width: 900px) {
-    width: 100%;
-  }
-`;
-
-function Western({ items }) {
+  useEffect(() => {
+    const loadAllMovies = async () => {
+      let westerns = await getWestern();
+      setWesternList(westerns);
+    };
+    loadAllMovies();
+  }, []);
   return (
-    <FilmGlobal>
-      <FilmList>
-        {items.results.length > 0 &&
-          items.results.map((item, key) => {
-            return (
-              <div key={key}>
-                <VideoCard id={item.id} />
-              </div>
-            );
-          })}
-      </FilmList>
-    </FilmGlobal>
+    <WesternGlobal>
+      {westernList.map((item, index) => (
+        <VideoList key={index} items={item.films} />
+      ))}
+    </WesternGlobal>
   );
 }
 

@@ -21,8 +21,8 @@ const fetchWestern = async (endpoint) => {
 export const getMovies = async () => {
   return [
     {
-      slug: "top-rated",
-      items: await fetchMovies("movie/top_rated"),
+      name: "top-rated",
+      films: await fetchMovies("movie/top_rated"),
     },
   ];
 };
@@ -30,8 +30,8 @@ export const getMovies = async () => {
 export const getWestern = async () => {
   return [
     {
-      slug: "western",
-      items: await fetchWestern("discover/movie"),
+      name: "western",
+      films: await fetchWestern("discover/movie"),
     },
   ];
 };

@@ -9,8 +9,8 @@ const ExplorerGlobal = styled.div`
   .explorer-title {
     padding: 30px;
     font-size: 1.2rem;
-    border-bottom: solid 0.3px black;
-    box-shadow: 0 8px 12px -5px rgba(0, 0, 0, 0.35);
+    border-bottom: solid 0.1px black;
+    box-shadow: 0 8px 8px -5px rgba(0, 0, 0, 0.2);
   }
 `;
 

@@ -17,62 +17,31 @@ import Western from "./pages/Western";
 import Settings from "./pages/Settings";
 import Help from "./pages/Help";
 import Report from "./pages/Report";
-import { useEffect, useState } from "react";
-import { getMovies, getWestern } from "./datas/moviesData";
 
 const AppContainer = styled.div`
   display: flex;
 `;
 
 function App() {
-  const [moviesList, setMoviesList] = useState([]);
-  const [westernList, setWesternList] = useState([]);
-
-  useEffect(() => {
-    const loadAllMovies = async () => {
-      let movies = await getMovies();
-      let westerns = await getWestern();
-      setMoviesList(movies);
-      setWesternList(westerns);
-    };
-    loadAllMovies();
-  }, []);
-
   return (
     <HamburgerContextProvider>
       <Navbar />
       <AppContainer>
         <Sidebar />
         <Routes>
-          <Route
-            path="/youtube-clone"
-            element={moviesList.map((item, key) => (
-              <Home key={key} items={item.items} />
-            ))}
-          />
+          <Route path="/youtube-clone" element={<Home />} />
           <Route path="/explorer" element={<Explorer />} />
           <Route path="/subscriptions" element={<Subscriptions />} />
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/live" element={<Live />} />
           <Route path="/watchlater" element={<WatchLater />} />
           <Route path="/gaming" element={<Gaming />} />
-          <Route
-            path="/film"
-            element={moviesList.map((item, key) => (
-              <Film key={key} items={item.items} />
-            ))}
-          />
+          <Route path="/film" element={<Film />} />
           <Route path="/music" element={<Music />} />
-          <Route
-            path="/western"
-            element={westernList.map((item, key) => (
-              <Western key={key} items={item.items} />
-            ))}
-          />
+          <Route path="/western" element={<Western />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/help" element={<Help />} />
           <Route path="/report" element={<Report />} />
-
           <Route path="/account" element={<Account />} />
         </Routes>
       </AppContainer>

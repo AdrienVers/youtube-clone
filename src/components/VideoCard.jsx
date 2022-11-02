@@ -147,9 +147,8 @@ const fetchMovies = async (endpoint) => {
 const getInfos = async (movieId) => {
   return [
     {
-      slug: "top-rated",
-      title: "Films mieux notés",
-      items: await fetchMovies(`movie/${movieId}`),
+      name: "top-rated",
+      film: await fetchMovies(`movie/${movieId}`),
     },
   ];
 };
@@ -231,20 +230,20 @@ function VideoCard({ id }) {
         <VideoCardContainer key={key}>
           <VideoCardImage>
             <img
-              src={`https://image.tmdb.org/t/p/original/${info.items.backdrop_path}`}
+              src={`https://image.tmdb.org/t/p/original/${info.film.backdrop_path}`}
               alt="Miniature"
             />
             <VideoCardLater>
               <i className="fa-solid fa-clock"></i>
             </VideoCardLater>
             <VideoCardDuration>
-              {truncateRunTime(info.items.runtime)}
+              {truncateRunTime(info.film.runtime)}
             </VideoCardDuration>
           </VideoCardImage>
 
           <VideoCardInfo>
             <VideoCardProfile>
-              {info.items.production_companies
+              {info.film.production_companies
                 ?.slice(0, 1)
                 .map((item) =>
                   item.logo_path ? (
@@ -259,13 +258,13 @@ function VideoCard({ id }) {
                 )}
             </VideoCardProfile>
             <VideoCardDetails>
-              <span>{truncateString(`${info.items.title}`, 50)}</span>
-              {info.items.production_companies?.slice(0, 1).map((item) => (
+              <span>{truncateString(`${info.film.title}`, 50)}</span>
+              {info.film.production_companies?.slice(0, 1).map((item) => (
                 <span key={item.id}>{item.name}</span>
               ))}
               <span>
-                {truncateNumber(info.items.popularity)} -{" "}
-                {truncateDate(info.items.release_date)}
+                {truncateNumber(info.film.popularity)} -{" "}
+                {truncateDate(info.film.release_date)}
               </span>
             </VideoCardDetails>
           </VideoCardInfo>
